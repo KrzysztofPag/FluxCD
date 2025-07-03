@@ -14,8 +14,8 @@ spec:
         branch: main
     commit:
       author:
-        email: krzysztof.pagiela97@gmail.com
-        name: KrzysztofPag
+        email: fluxcdbot@users.noreply.github.com
+        name: fluxcdbot
       messageTemplate: "{{range .Updated.Images}}{{println .}}{{end}}"
     push:
       branch: flux-automated-upgrade
